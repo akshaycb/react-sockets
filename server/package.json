@@ -1,0 +1,19 @@
+{
+  "name": "calculator-server",
+  "version": "1.0.0",
+  "description": "broadcast calculations to all the clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "akshay bharadwaj",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
